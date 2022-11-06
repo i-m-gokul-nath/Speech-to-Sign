@@ -13,7 +13,7 @@ require('dotenv/config');
 require('./config/passport')(passport);
 
 // DB Config
-const db = `${process.env.DBURL}`;
+const db = process.env.DBURL;
 // Connect to MongoDB
 mongoose
   .connect(
@@ -61,6 +61,6 @@ app.get('/', (req, res) => res.render('index'));
 app.use('/dashboard', require('./routes/dashboard/dashboardControler.js'));
 app.use('/users', require('./routes/users.js'));
 
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT || 7007;
 //npm run-script dev
 app.listen(PORT, console.log(`Server running on  ${PORT}`));

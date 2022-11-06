@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/i-m-gokul-nath/Speech-to-Sign.git"
   },
   "keywords": [],
   "author": "",
