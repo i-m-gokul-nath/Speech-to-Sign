@@ -2,7 +2,7 @@
 
 ### Hosted on
  <a href="https://speech-to-sign.herokuapp.com">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Open speechtosign">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Open speechto">
 </a>
 
 This is essentially a speech to sign language converter which takes a speech input from the user and converts it to a text form with the help of a JavaScript API followed by which, this text is used as an input to finally convert this speech into sign language.
