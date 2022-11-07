@@ -57,7 +57,7 @@ app.use(function(req, res, next) {
 });
 
 // Routes
-app.get('/', (req, res) => res.render('index'));
+app.get('/', (req, res) => res.render('welcome'));
 app.use('/dashboard', require('./routes/dashboard/dashboardControler.js'));
 app.use('/users', require('./routes/users.js'));
 
