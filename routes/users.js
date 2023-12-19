@@ -26,7 +26,7 @@ router.post("/register", (req, res) => {
     errors.push({ msg: "Please enter all fields" });
   }
 
-  if (password != password2) {
+  if (password != password2) { 
     errors.push({ msg: "Passwords do not match" });
   }
 
